@@ -17,7 +17,7 @@ public class HelloController {
 	@GetMapping("/jsp")
 	public String jsp(Model model) {
 		System.out.println("jsp 요청됨");
-		model.addAttribute("username", "주인 우정광");
+		model.addAttribute("username", "주인 우정광.");
 		return "hello";
 	}
 }
