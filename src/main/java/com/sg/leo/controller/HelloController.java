@@ -18,6 +18,6 @@ public class HelloController {
 	public String jsp(Model model) {
 		System.out.println("jsp 요청됨");
 		model.addAttribute("username", "주인 우정광.");
-		return "hello";
+		return "hellojsp";
 	}
 }
